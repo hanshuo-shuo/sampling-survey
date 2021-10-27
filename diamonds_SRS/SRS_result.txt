@@ -1,0 +1,40 @@
+This is an application to diamonds data: 
+
+The estimation of mean price under SRS design: 
+The full size N =  53940 
+The sample size n =  5000 
+
+The result for SRS simple estimation: 
+
+Est =  3924.698 
+Var =  2893.037 
+SD  =  53.78696 
+CI =  [ 3819.278 , 4030.119 ] 
+
+The result for SRS ratio estimation: 
+
+Est =  3932.049 
+Var =  763.9842 
+SD  =  27.64026 
+CI =  [ 3877.875 , 3986.223 ] 
+
+The result for SRS regression estimation: 
+
+Est =  3936.325 
+Var =  431.038 
+SD  =  20.76146 
+CI =  [ 3895.634 , 3977.017 ] 
+
+The design efficiency for the three estimators: 
+
+                 Var    Deff
+Simple     2893.0365 1.00000
+Ratio       763.9842 0.26408
+Regression  431.0380 0.14899
+
+When r=0.01 , the sample size for the three estimators: 
+
+                 Var    Deff  Size
+Simple     2893.0365 1.00000 22812
+Ratio       763.9842 0.26408  6024
+Regression  431.0380 0.14899  3399

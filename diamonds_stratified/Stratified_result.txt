@@ -1,0 +1,40 @@
+This is an application to diamonds data: 
+
+The estimation of mean price under Stratified design: 
+The full size N =  53940 
+The sample size n =  5000 
+
+The result for stratified simple estimation: 
+
+Est =  3952.874 
+Var =  2828.273 
+SD  =  53.18151 
+CI =  [ 3848.64 , 4057.108 ] 
+
+The result for sperate ratio estimation: 
+
+Est =  3925.726 
+Var =  737.5515 
+SD  =  27.1579 
+CI =  [ 3872.497 , 3978.954 ] 
+
+The result for combined ratio estimation: 
+
+Est =  3926.36 
+Var =  746.8021 
+SD  =  27.32768 
+CI =  [ 3872.799 , 3979.921 ] 
+
+The design efficiency of the three designs: 
+
+                     Var    Deff
+Stra Simple    2828.2728 1.00000
+Sperate Ratio   737.5516 0.26078
+Combined Ratio  746.8021 0.26405
+
+When r=0.01 , the sample size for the three estimators: 
+
+                     Var    Deff  Size
+Stra Simple    2828.2728 1.00000 22642
+Sperate Ratio   737.5516 0.26078  5905
+Combined Ratio  746.8021 0.26405  5979
